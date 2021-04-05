@@ -10,10 +10,12 @@
   }
 
   main {
+      display: flex;
+      justify-content: center;
     width: 100%;
     height: auto;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 0 auto;
   }
 
   h1{
