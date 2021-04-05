@@ -14,11 +14,11 @@
     justify-content: center;
     width: 100%;
     height: auto;
-    text-align: center;
     margin-top: 0 auto;
   }
 
   h1{
+      text-align: center;
       background:#44c;
       font-weight: bold;
       color: white;
