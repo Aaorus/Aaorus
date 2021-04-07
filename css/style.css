@@ -1,28 +1,26 @@
-* {
+*{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
-
-  html {
+}
+html{
     font-size: 62.5%;
-    font-family: "Arial";
-  }
-
-  main {
+    font-family: 'Roboto', sans-serif;
+}
+main{
     display: flex;
     justify-content: center;
-    width: 100%;
-    height: auto;
-    margin-top: 0 auto;
-  }
-
-  h1{
-      text-align: center;
-      background:#44c;
-      font-weight: bold;
-      color: white;
-      margin: 0 auto;
-      padding: 0.5em;
-      box-shadow: 3px 4px 9px -6px rgba(0,0,0,1);
-  }
+    align-items: center;
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+p{
+    color:darkcyan;
+    font-size: 5.0rem;
+    font-weight: 500;
+}
+.Pie_img{
+    color: cadetblue;
+    font-size: 1.2rem;
+}
