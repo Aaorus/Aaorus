@@ -15,13 +15,48 @@ main{
     margin: 0 auto;
     text-align: center;
 }
-p{
+.contenedor_perfil{
+    display: inline-block;
+    position: relative;
+    margin: 50% 50%;
+    transform: translate(0 -50%);
+
+}
+.foto_perfil{
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+}
+.presentation{
+    margin: 20px 0 0 0;
     color:darkcyan;
-    font-size: 5.0rem;
+    font-size: 1.2rem;
     font-weight: 500;
 }
+.nombre{
+    color:darkcyan;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: -3%;
+}
+.divisor{
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    width: 180px;
+}
+.pie_img{
+    color:darkcyan;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
 img{
     width: 100%;
+    border-radius: 360px;
+    border: solid 4px rgb(28, 26, 26);
+    background-repeat: no-repeat;
+
 }
 .Pie_img{
     color: cadetblue;
