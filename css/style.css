@@ -11,21 +11,21 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 700px;
-    margin: 0 auto;
     text-align: center;
 }
 .contenedor_perfil{
     display: inline-block;
     position: relative;
-    margin: 50% 50%;
-    transform: translate(0 -50%);
+    width: 100%;
+    margin: 50%;
+    transform: translate(0, -50%);
 
 }
 .foto_perfil{
     margin: 0 auto;
     width: 150px;
     height: 150px;
+    transform: translate(-150px 0);
 }
 .presentation{
     margin: 20px 0 0 0;
@@ -56,9 +56,4 @@ img{
     border-radius: 360px;
     border: solid 4px rgb(28, 26, 26);
     background-repeat: no-repeat;
-
-}
-.Pie_img{
-    color: cadetblue;
-    font-size: 1.2rem;
 }
