@@ -33,7 +33,7 @@ table, th, td {
   }
 
 .contenedor_perfil{
-    margin-top: 200px;
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     text-align: center;
